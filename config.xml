@@ -47,7 +47,7 @@
     <gap:splash src="splash.png" /> <!-- default 320x480 pixels -->
         
     <gap:splash src="img/splash/ios/splash320x480.png" gap:platform="ios" width="320" height="480" /> <!-- iPhone 3G, 3GS, iPod Touch 2, 3 -->
-    <gap:splash src="img/splash/ios/splash640x960.png" gap:platform="ios" width="640" height="960" /> <!-- iPhone 4, 4S, iPod Touch 4 -->
+    <gap:splash src="http://placekitten.com/640/960" gap:platform="ios" width="640" height="960" /> <!-- iPhone 4, 4S, iPod Touch 4 -->
     <gap:splash src="img/splash/ios/splash640x1136.png" gap:platform="ios" width="640" height="1136" /> <!-- iPhone 5, iPod Touch 5 -->
     <gap:splash src="img/splash/ios/splash1024x768.png" gap:platform="ios" width="1024" height="768" /> <!-- iPad 1, 2, iPad mini -->
     <gap:splash src="img/splash/ios/splash768x1024.png" gap:platform="ios" width="768" height="1024" /> <!-- iPad 1, 2, iPad mini -->
