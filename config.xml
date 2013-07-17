@@ -12,7 +12,7 @@
     </description>
 
     <author href="http://venerons.github.io" email="veneronslaboratories@gmail.com">
-        Dan bull
+        Dan Bull
 	</author>
 
 	<!-- PLUGINS -->
@@ -88,8 +88,9 @@
     <preference name="android-minSdkVersion" value="7" /> <!-- minimum Android 2.1 -->
     <!-- <preference name="android-maxSdkVersion" value="17" /> maximum Android 4.2 -->
     <preference name="android-installLocation" value="auto" />
-    <preference name="splash-screen-duration" value="3000" />
+    <preference name="splash-screen-duration" value="10000" />
     <preference name="load-url-timeout" value="20000" />
+    <preference name="auto-hide-splash-screen" value="false" />
         
     <!-- BLACKBERRY PREFERENCES -->
         
