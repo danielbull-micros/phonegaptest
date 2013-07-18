@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<widget xmlns = "http://www.w3.org/ns/widgets"
 		xmlns:gap = "http://phonegap.com/ns/1.0"
-		id = "it.venerons.APPLICATION"
+		id = "com.micros.shelldev"
 		version = "1.0.0"
 		versionCode = "1">
 
@@ -11,7 +11,7 @@
        Just fucking around really
     </description>
 
-    <author href="http://venerons.github.io" email="veneronslaboratories@gmail.com">
+    <author email="danbull@micros.com">
         Dan Bull
 	</author>
 
