@@ -50,10 +50,10 @@
     <gap:splash src="img/splash/ios/splash640x1136.png" gap:platform="ios" width="640" height="1136" /> <!-- iPhone 5, iPod Touch 5 -->
 
         
-    <!-- <gap:splash src="img/splash/android/ldpi.png" gap:platform="android" gap:density="ldpi" /> 200x320 -->
-    <!-- <gap:splash src="img/splash/android/mdpi.png" gap:platform="android" gap:density="mdpi" />  320x480 -->
-    <!-- <gap:splash src="img/splash/android/hdpi.png" gap:platform="android" gap:density="hdpi" />  480x800 -->
-    <!-- <gap:splash src="img/splash/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" />  720x1280 -->
+    <gap:splash src="img/splash/android/ldpi.png" gap:platform="android" gap:density="ldpi" /> <!-- 200x320 -->
+    <gap:splash src="img/splash/android/mdpi.png" gap:platform="android" gap:density="mdpi" />  <!-- 320x480 -->
+    <gap:splash src="img/splash/android/hdpi.png" gap:platform="android" gap:density="hdpi" />  <!-- 480x800 -->
+    <gap:splash src="img/splash/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" />  <!-- 720x1280 -->
 
     <gap:splash src="http://placekitten.com/200/320" gap:platform="android" gap:density="ldpi" /> <!--200x320 -->
     <gap:splash src="http://placekitten.com/320/480" gap:platform="android" gap:density="mdpi" />  <!--320x480 -->
