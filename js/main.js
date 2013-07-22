@@ -22,6 +22,8 @@ $(function() {
    );
 	});
 
-  console.log($(window).height());
+  var screenHeight = $(window).height();
+
+  $('.home').height(screenHeight * 2);
 
  });
