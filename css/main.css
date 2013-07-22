@@ -2,6 +2,12 @@
    HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
    ========================================================================== */
 
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 html,
 button,
 input,
@@ -395,3 +401,67 @@ nav a:hover {
         page-break-after: avoid;
     }
 }
+
+
+/* Important part */
+        .box{
+            position:  relative;
+           /* width: 20%;*/
+            margin: 5% 0;
+            float: left;
+            font-size: 12px;
+            background: red;
+        }
+        .box:before{
+            content: "";
+            display: block;
+            margin-top: 100%; /* initial ratio of 1:1*/
+        }
+
+        .logo {
+            width: 12%;
+        }
+
+        .fillup,
+        .receipts,
+        .savemoney {
+            width: 88%;
+        }
+
+        .help,
+        .settings {width: 25%;}
+        
+        /* Other ratios */
+        .ratio2_1:before{
+            margin-top: 50%;
+        }
+        .ratio1_2:before{
+            margin-top: 200%;
+        }
+        .ratio4_3:before{
+            margin-top: 75%;
+        }
+        .ratio16_9:before{
+            margin-top: 56.25%;
+        }
+        .content{
+            /* Positioning */
+            position:  absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            color:  #fff;
+
+            /* Styling */
+            background: black;
+            padding: 20px;
+            text-align: center;
+            vertical-align: center;
+            text-transform: uppercase;
+        }
+        .content span{
+            font-weight: bold;
+            font-size: 3em;
+            display: block;
+        }
