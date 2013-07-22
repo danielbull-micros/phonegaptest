@@ -407,10 +407,9 @@ nav a:hover {
         .box{
             position:  relative;
            /* width: 20%;*/
-            margin: 5% 0;
-            float: left;
+            margin: 2% 0;
+            float: right;
             font-size: 12px;
-            background: red;
             max-height: 190px;
         }
         .box:before{
@@ -420,13 +419,26 @@ nav a:hover {
         }
 
         .logo {
-            width: 12%;
+            width: 22%;
+            float: left;
+        }
+
+        .logo .content {
+            background: #fff url(../img/shell-logo.png) no-repeat center center;
+
         }
 
         .fillup,
         .receipts,
         .savemoney {
-            width: 88%;
+            width: 78%;
+        }
+
+
+        .fillup .content,
+        .receipts .content,
+        .savemoney .content {
+            margin-left: 6%;
         }
 
         .help,
@@ -466,3 +478,9 @@ nav a:hover {
             font-size: 3em;
             display: block;
         }
+
+
+
+.homepage {
+    background: url(../img/home-bg.png) no-repeat;
+}
