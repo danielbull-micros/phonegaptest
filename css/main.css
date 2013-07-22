@@ -411,6 +411,7 @@ nav a:hover {
             float: left;
             font-size: 12px;
             background: red;
+            max-height: 190px;
         }
         .box:before{
             content: "";
