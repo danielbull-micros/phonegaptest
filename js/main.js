@@ -24,6 +24,6 @@ $(function() {
 
   var screenHeight = $(window).height();
 
-  $('.home').height(screenHeight * 2);
+  $('.homepage').height(screenHeight * 2);
 
  });
