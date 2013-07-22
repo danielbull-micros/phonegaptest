@@ -5,11 +5,6 @@
 		version = "1.0.0"
 		versionCode = "1">
 
-    <feature name="debug-server" required="true">↵
-        <param name="domain" value="http://10.11.1.174"/>
-        <param name="key" value="testing1234"/>
-    </feature>
-
     <name>PhoneGap app</name>
 
     <description>
