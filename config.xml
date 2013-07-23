@@ -17,8 +17,9 @@
 
 	<!-- PLUGINS -->
 
-	<gap:plugin name="com.phonegap.plugins.barcodescanner" />   
-        
+	<gap:plugin name="com.phonegap.plugins.barcodescanner" />
+    <gap:plugin name="com.phonegap.plugins.childbrowser" />
+            
     <!-- ICONS -->
         
     <icon src="icon.png" /> <!-- default 72 pixels -->

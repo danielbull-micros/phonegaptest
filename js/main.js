@@ -4,6 +4,9 @@ var scanner = cordova.require("cordova/plugin/BarcodeScanner");
 
 $(function() {
 
+  window.plugins.childBrowser.showWebPage('http://www.google.com',
+                                        { showLocationBar: true });
+
   $('#consoleTest').on('click', function () {
     console.log("Button clicked");
   });
