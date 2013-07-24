@@ -483,5 +483,5 @@ nav a:hover {
 
 .homepage {
     background: url(../img/home-bg.png) no-repeat;
-    background-size: 100% 100%;
+    background-size: auto 100%;
 }

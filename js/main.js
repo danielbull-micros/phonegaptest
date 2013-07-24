@@ -1,6 +1,8 @@
 var scanner = cordova.require("cordova/plugin/BarcodeScanner");
-
-
+var ref = window.open('http://apache.org', '_blank', 'location=yes');
+var myCallback = function() { alert(event.url); }
+ref.addEventListener('loadstart', myCallback);
+ref.removeEventListener('loadstart', myCallback);
 
 $(function() {
 
