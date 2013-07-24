@@ -19,8 +19,11 @@
     // Cordova is ready
     //
     function onDeviceReady() {
-         window.open('http://apache.org',
-                    { showLocationBar: true });
+         // window.open('http://apache.org',
+         //            { showLocationBar: true });
+
+window.plugins.childBrowser.showWebPage('http://www.google.com',
+                                        { showLocationBar: true });
 
          // close InAppBrowser after 5 seconds
          // setTimeout(function() {
