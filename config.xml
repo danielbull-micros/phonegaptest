@@ -15,8 +15,6 @@
         Dan Bull
 	</author>
 
-   <access origin=".*"/>
-
 	<!-- PLUGINS -->
 
 	<gap:plugin name="com.phonegap.plugins.barcodescanner" />
@@ -88,11 +86,7 @@
     <preference name="exit-on-suspend" value="false" />
     <preference name="show-splash-screen-spinner" value="false" />
     <preference name="auto-hide-splash-screen" value="true" /> <!-- if set to false, the splash screen must be hidden using a JavaScript API -->
-    
 
-        
-    <!-- PHONEGAP API FEATURES PREFERENCES -->
-        
-    <preference name="permissions" value="none"/>
+    <access uri="*" subdomains="true" />
 
 </widget>
