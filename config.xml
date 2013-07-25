@@ -15,7 +15,7 @@
         Dan Bull
 	</author>
 
-    <access origin="http://eofdreams.com" />
+   <access origin=".*"/>
 
 	<!-- PLUGINS -->
 
