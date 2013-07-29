@@ -15,8 +15,6 @@
         Dan Bull
 	</author>
 
-    <access origin="*" subdomains="true" />
-
 	<!-- PLUGINS -->
 
 	<gap:plugin name="com.phonegap.plugins.barcodescanner" />
@@ -63,13 +61,6 @@
     <gap:splash src="http://placekitten.com/480/800" gap:platform="android" gap:density="hdpi" />  <!-- 480x800 -->
     <gap:splash src="http://placekitten.com/720/1280" gap:platform="android" gap:density="xhdpi" />  <!--720x1280 -->
 
-
-        
-    <gap:splash src="img/splash/bb/splash.png" gap:platform="blackberry" /> <!-- BlackBerry 250x250 -->
-        
-    <gap:splash src="img/splash/winphone/splash.jpg" gap:platform="winphone" /> <!-- Windows Phone 7 480x800 -->
-        
-    <gap:splash src="img/splash/webos/splash.png" gap:platform="webos" /> <!-- WebOS 64x64 -->
         
     <!-- GENERAL PREFERENCES -->
         
@@ -88,5 +79,10 @@
     <preference name="exit-on-suspend" value="false" />
     <preference name="show-splash-screen-spinner" value="false" />
     <preference name="auto-hide-splash-screen" value="true" /> <!-- if set to false, the splash screen must be hidden using a JavaScript API -->
+
+
+    <!-- api access -->
+    <feature name="http://api.phonegap.com/1.0/network"/>
+    <access origin="*" />
 
 </widget>
