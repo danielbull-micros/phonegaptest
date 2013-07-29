@@ -71,14 +71,14 @@
         
     <!-- iOS PREFERENCES -->
         
-    <preference name="webviewbounce" value="false" />
+    <!--  <preference name="webviewbounce" value="false" />
     <preference name="prerendered-icon" value="true" />
     <preference name="stay-in-webview" value="true" />
     <preference name="ios-statusbarstyle" value="black-opaque" />
     <preference name="detect-data-types" value="false" />
     <preference name="exit-on-suspend" value="false" />
     <preference name="show-splash-screen-spinner" value="false" />
-    <preference name="auto-hide-splash-screen" value="true" /> <!-- if set to false, the splash screen must be hidden using a JavaScript API -->
+    <preference name="auto-hide-splash-screen" value="true" /> if set to false, the splash screen must be hidden using a JavaScript API -->
 
 
     <!-- api access -->
