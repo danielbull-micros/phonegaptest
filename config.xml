@@ -15,7 +15,7 @@
         Dan Bull
 	</author>
 
-    <access uri="*" subdomains="true" />
+    <access origin="*" subdomains="true" />
 
 	<!-- PLUGINS -->
 
